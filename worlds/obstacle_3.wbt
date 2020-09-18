@@ -78,7 +78,7 @@ WoodenBox {
 }
 Pioneer3at {
   translation -4.5 0.107611 -4.5
-  controller "planning_1"
+  controller "astar"
   supervisor TRUE
   extensionSlot [
     Compass {
