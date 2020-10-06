@@ -1,0 +1,79 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+  gpsReference 6 0 6
+}
+Viewpoint {
+  fieldOfView 1
+  orientation 1 0 0 -1.5707
+  position 0 11 0
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  floorTileSize 2 2
+  wallHeight 1
+}
+OilBarrel {
+  translation -1.5 0.5 -4.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(0)"
+}
+OilBarrel {
+  translation -4.5 0.5 -2.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(1)"
+}
+OilBarrel {
+  translation 2.5 0.5 -2.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(2)"
+}
+OilBarrel {
+  translation -2.5 0.5 -1.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(3)"
+}
+OilBarrel {
+  translation 4.5 0.5 -1.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(4)"
+}
+OilBarrel {
+  translation 0.5 0.5 -0.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(5)"
+}
+OilBarrel {
+  translation -1.5 0.5 1.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(6)"
+}
+OilBarrel {
+  translation 2.5 0.5 1.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(7)"
+}
+OilBarrel {
+  translation 2.5 0.5 3.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(8)"
+}
+OilBarrel {
+  translation -4.5 0.5 4.5
+  rotation 0 1 0 -1.5708
+  name "OilBarrel(9)"
+}
+Pioneer3at {
+  translation -4.5 0.107611 -4.5
+  controller "potential_field"
+  extensionSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
